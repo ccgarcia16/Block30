@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 //const API_URL = `https://fsa-book-buddy-b6e748d1380d.herokuapp.com/api/books/3`
 
 const BookDetails = () => {
   const [bookDetails, setBookDetails] = useState([]);
   const {bookId} = useParams();
+  const navigate = useNavigate();
 
   const API_URL = `https://fsa-book-buddy-b6e748d1380d.herokuapp.com/api/books/${bookId}`
   console.log(bookId);

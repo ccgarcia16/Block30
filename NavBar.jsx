@@ -8,7 +8,7 @@ const NavBar = () => {
     <br></br>
     <Link to="/books">Book List</Link>
     <br></br>
-    <Link to="/signup">Register/View Your Account</Link>
+    <Link to="/signup">Register An Account!</Link>
     </>
   )
 }

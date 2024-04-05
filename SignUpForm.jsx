@@ -55,6 +55,11 @@ const SignUpForm = () => {
         <br></br>
         <button>Submit</button>
       </form>
+      <div>
+        <h3>Your account</h3>
+        <p>{firstName}  {lastName}</p>
+        <p>Email: {email}</p>
+      </div>
     </>
   )
 }
